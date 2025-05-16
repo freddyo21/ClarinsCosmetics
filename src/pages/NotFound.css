@@ -1,0 +1,75 @@
+.not-found-container {
+    background: #ECEFF1;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding: 100px;
+    height: 100vh;
+}
+
+#not-found__message {
+    background: white;
+    max-width: 400px;
+    margin: 0 auto 16px;
+    padding: 24px 24px 16px;
+    border-radius: 3px;
+}
+
+#not-found__message h3 {
+    color: #888;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 16px 0 12px;
+}
+
+#not-found__message h2 {
+    color: #ffa100;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 0 8px;
+}
+
+#not-found__message h1 {
+    font-size: 22px !important;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 16px;
+}
+
+#not-found__message p {
+    line-height: 140%;
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+#not-found__message a {
+    display: block;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+#not-found__message,
+#not-found__message a {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#load {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    #not-found__message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+    }
+
+    body {
+        border-top: 16px solid #ffa100;
+    }
+}

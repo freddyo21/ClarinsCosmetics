@@ -1,0 +1,113 @@
+{
+    "admin": {
+        "title": "Quản trị viên"
+    },
+    "common": {
+        "button": {
+            "cancel": "Hủy",
+            "cart": "Giỏ hàng",
+            "checkout": "Thanh toán",
+            "delete": "Xóa",
+            "languageToggler": "Nhấn vào đây để thay đổi ngôn ngữ",
+            "save": "Lưu",
+            "search": "Tìm kiếm"
+        },
+        "categories": {
+            "add": "Thêm danh mục",
+            "all": "Tất cả danh mục",
+            "delete": "Xóa danh mục",
+            "edit": "Sửa danh mục",
+            "list": [
+                "Điện tử",
+                "Thời trang",
+                "Giày dép",
+                "Thực phẩm",
+                "Khác"
+            ],
+            "listText": "Danh sách danh mục"
+        },
+        "checkout": {
+            "address": "Địa chỉ",
+            "country": "Quốc gia",
+            "district": "Quận/Huyện",
+            "email": "Email",
+            "fullName": "Họ và tên",
+            "phone": "Số điện thoại",
+            "postalCode": "Mã bưu chính",
+            "province": "Tỉnh/Thành phố",
+            "title": "Thanh toán",
+            "totalMoney": "Thành tiền",
+            "ward": "Phường/Xã"
+        },
+        "language": "Tiếng Việt",
+        "navigation": {
+            "home": "Trang chủ",
+            "about": "Giới thiệu",
+            "contact": "Liên hệ",
+            "products": "Sản phẩm"
+        },
+        "products": {
+            "add": "Thêm",
+            "all": "Tất cả sản phẩm",
+            "delete": "Xóa",
+            "edit": "Sửa",
+            "list": [],
+            "listText": "Product list",
+            "unitPrice": "Đơn giá"
+        },
+        "sweetalert2": {
+            "confirm": {
+                "icon": "question",
+                "cancel": "Hủy",
+                "ok": "OK"
+            },
+            "delete": {
+                "icon": "warning",
+                "delete": "Xóa",
+                "confirm": "Xác nhận",
+                "title": "Bạn chắc chắn chứ?",
+                "text": "Hành động này không thể hoàn tác!"
+            },
+            "error": {
+                "icon": "error",
+                "title": "Lỗi",
+                "text": "Đã xảy ra lỗi!"
+            },
+            "success": {
+                "icon": "success",
+                "title": "Thành công",
+                "text": "Hành động đã được thực hiện thành công!"
+            },
+            "info": {
+                "icon": "info",
+                "isBuilding": "Chức năng đang được xây dựng",
+                "title": "Info",
+                "text": "This is an info message!"
+            }
+        },
+        "userDropdown": {
+            "profile": "Trang cá nhân",
+            "logout": "Đăng xuất",
+            "login": "Đăng nhập",
+            "register": "Đăng ký"
+        }
+    },
+    "user": {
+        "login": {
+            "login": "Đăng nhập",
+            "password": "Mật khẩu",
+            "username": "Tên đăng nhập"
+        },
+        "register": {
+            "accountExistedFalse": "Chưa có tài khoản? Đăng ký ngay!",
+            "accountExistedTrue": "Bạn đã có tài khoản? Hãy đăng nhập ngay!",
+            "confirmPassword": "Xác nhận mật khẩu",
+            "email": "Email",
+            "fullName": "Họ và tên",
+            "password": "Mật khẩu",
+            "phone": "Số điện thoại",
+            "register": "Đăng ký",
+            "username": "Tên đăng nhập"
+        }
+    }
+}

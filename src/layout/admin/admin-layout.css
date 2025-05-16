@@ -1,0 +1,22 @@
+.admin__layout {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+.admin__sidebar {
+    width: 16rem;
+}
+
+.admin__content-container {
+    /* width: 100%; */
+    /* flex: 1 1 0%; */
+    flex-direction: column;
+    display: flex;
+}
+
+.admin__content {
+    flex: 1 1 0%;
+    padding: 1.5rem;
+}

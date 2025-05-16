@@ -1,0 +1,25 @@
+#products-management__table thead th:hover {
+    cursor: pointer;
+}
+
+.products-management__filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.products-management__filter-search {
+    width: 600px;
+}
+
+.products-management__filter-limit {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#products-management__table .fas:hover {
+    cursor: pointer;
+}

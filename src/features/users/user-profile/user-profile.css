@@ -1,0 +1,11 @@
+.user-profile__container {
+    padding: 1rem;
+}
+
+.user-profile__table .gender .form-check {
+    min-height: 0;
+}
+
+.user-profile__table tr td:first-child {
+    width: 20%;
+}

@@ -1,0 +1,25 @@
+#user-management__table thead th:hover {
+    cursor: pointer;
+}
+
+.user-management__filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.user-management__filter-search {
+    width: 600px;
+}
+
+.user-management__filter-limit {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-management__table .fas:hover {
+    cursor: pointer;
+}

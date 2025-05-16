@@ -1,0 +1,113 @@
+{
+    "admin": {
+        "title": "Administrator"
+    },
+    "common": {
+        "button": {
+            "cancel": "Cancel",
+            "cart": "Cart",
+            "checkout": "Checkout",
+            "delete": "Delete",
+            "languageToggler": "Press here to change language",
+            "save": "Save",
+            "search": "Search"
+        },
+        "categories": {
+            "add": "Add category",
+            "all": "All categories",
+            "delete": "Delete category",
+            "edit": "Edit category",
+            "list": [
+                "Electronics",
+                "Clothing",
+                "Shoes",
+                "Food",
+                "Miscellaneous"
+            ],
+            "listText": "Category list"
+        },
+        "checkout": {
+            "address": "Address",
+            "country": "Country",
+            "district": "District",
+            "email": "Email",
+            "fullName": "Full name",
+            "phone": "Phone",
+            "postalCode": "Postal code",
+            "province": "Province",
+            "title": "Checkout",
+            "totalMoney": "Total money",
+            "ward": "Ward"
+        },
+        "language": "English",
+        "navigation": {
+            "home": "Home",
+            "about": "About",
+            "contact": "Contact",
+            "products": "Products"
+        },
+        "products": {
+            "add": "Add",
+            "all": "All products",
+            "delete": "Delete",
+            "edit": "Edit",
+            "list": [],
+            "listText": "Product list",
+            "unitPrice": "Unit price"
+        },
+        "sweetalert2": {
+            "confirm": {
+                "icon": "question",
+                "cancel": "Cancel",
+                "ok": "OK"
+            },
+            "delete": {
+                "icon": "warning",
+                "delete": "Delete",
+                "confirm": "Confirm",
+                "title": "Are you sure?",
+                "text": "You won't be able to revert this!"
+            },
+            "error": {
+                "icon": "error",
+                "title": "Error",
+                "text": "Something went wrong!"
+            },
+            "success": {
+                "icon": "success",
+                "title": "Success",
+                "text": "Action has been done successfully!"
+            },
+            "info": {
+                "icon": "info",
+                "isBuilding": "This function is under construction",
+                "title": "Info",
+                "text": "This is an info message!"
+            }
+        },
+        "userDropdown": {
+            "profile": "Profile",
+            "logout": "Logout",
+            "login": "Login",
+            "register": "Register"
+        }
+    },
+    "user": {
+        "login": {
+            "login": "Login",
+            "password": "Password",
+            "username": "Username"
+        },
+        "register": {
+            "accountExistedFalse": "Account not existed? Register now!",
+            "accountExistedTrue": "Account existed? Login now!",
+            "confirmPassword": "Confirm password",
+            "email": "Email",
+            "fullName": "Full name",
+            "password": "Password",
+            "phone": "Phone",
+            "register": "Register",
+            "username": "Username"
+        }
+    }
+}

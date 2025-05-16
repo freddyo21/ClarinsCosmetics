@@ -1,0 +1,41 @@
+.register__container {
+    margin-bottom: -4px;
+    display: grid;
+    height: calc(100vh - 104px);
+    align-items: center;
+    padding: 0;
+}
+
+.home-content div:has(.register__container) {
+    padding: 0;
+}
+
+.register__container--form {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.register__container--background {
+    background: var(--gradient-primary);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__container--background div {
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .register__container--background {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .register__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

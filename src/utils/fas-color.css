@@ -1,0 +1,22 @@
+.fas:hover {
+    transition: color 0.2s ease;
+}
+
+.fa-trash:hover {
+    color: #f10;
+}
+
+.fa-circle-info:hover {
+    color: #17a2b8;
+}
+
+.fa-plus:hover {
+    color: #28a745;
+}
+
+.fa-edit:hover,
+.fa-pause:hover,
+.fa-wrench:hover,
+.fa-cog:hover {
+    color: #ffc107;
+}

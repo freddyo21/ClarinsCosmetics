@@ -1,0 +1,55 @@
+.product__container {
+    position: relative;
+    top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product__search {
+    width: 300px;
+}
+
+.product__filter-criterias i {
+    font-size: 1.5rem;
+}
+
+.product__filter-criterias .form-select {
+    width: 200px;
+}
+
+.product__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product__grid .card-img-top {
+    height: 12rem;
+    object-fit: cover;
+}
+
+.product__card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.product__card .fa-cart-plus:hover {
+    color: #1080eb;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.product__tag {
+    font-weight: 600;
+}
+
+.product__filter--limit {
+    width: 300px;
+}
+
+.product__filter--limit label {
+    margin: 0
+}

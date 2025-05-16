@@ -1,0 +1,6 @@
+#brands-management__table thead th:hover,
+#categories-management__table thead th:hover,
+#brands-management__table .fas:hover,
+#categories-management__table .fas:hover {
+    cursor: pointer;
+}

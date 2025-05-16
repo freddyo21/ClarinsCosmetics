@@ -1,0 +1,23 @@
+.user-layout {
+    padding: 72px 0 36px 0;
+    background-color: #eaeaea;
+}
+
+.user-layout .container-md {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .user-layout__sidebar {
+        border-bottom: 2px solid #000;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .user-layout__sidebar {
+        border-right: 2px solid #000;
+    }
+}

@@ -1,0 +1,25 @@
+.sitemap__card {
+    position: relative;
+    top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sitemap__pages-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sitemap__pages {
+    height: 100%;
+}
+
+.sitemap__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.sitemap__link:hover {
+    text-decoration: underline;
+}

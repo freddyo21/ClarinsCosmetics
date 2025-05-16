@@ -1,0 +1,12 @@
+.contact-us__card {
+    position: relative;
+    top: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.contact-us__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}

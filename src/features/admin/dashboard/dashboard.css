@@ -1,0 +1,48 @@
+.admin__dashboard-stats-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.admin__dashboard-stats-cards h2+.fas {
+    font-size: 1.3rem;
+}
+
+.admin__dashboard-general-info-cards {
+    margin-top: 1.5rem;
+}
+
+.admin__dashboard-general-info-cards-container {
+    margin-top: 1rem;
+    display: grid;
+    flex: 1 1 0%;
+    gap: 1.5rem;
+}
+
+.admin__dashboard-quick-stats>div {
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+
+.admin__dashboard-quick-stats>div:hover {
+    background-color: #eff2f5;
+}
+
+@media only screen and (max-width: 399px) {
+    .admin__dashboard-stats-cards {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 991px) {
+    .admin__dashboard-stats-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .admin__dashboard-general-info-cards-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

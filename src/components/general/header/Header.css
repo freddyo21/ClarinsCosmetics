@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 0;
+    background: var(--gradient-primary);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav__cart-item {
+    display: flex;
+    align-self: center;
+    color: #fff;
+}
+
+.nav__cart-item:hover {
+    color: #ffc400;
+    transition: color 0.3s ease;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.header .nav-link {
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffc400;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    background-color: #ffc400 !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.header__user-toggle {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header__user-toggle {
+        font-size: 20px;
+    }
+}

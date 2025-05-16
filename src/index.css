@@ -1,0 +1,288 @@
+:root {
+    --btn-info: #17a2b8;
+    --btn-success: #28a745;
+    --toastr-danger-100: #bd362fff;
+    --toastr-warning-100: #f89406ff;
+    --toastr-info-100: #2f96b4ff;
+    --toastr-success-100: #51a351ff;
+    --bs-primary-500: #0d6efdff;
+    --bs-danger-600: #b02a37ff;
+    --bs-warning-500: #ffc107ff;
+    --bs-info-700: #087990ff;
+    --bs-success-600: #146c43ff;
+    --gradient-primary: linear-gradient(to right, #9b10db, #db105e);
+    --gradient-primary-hover: linear-gradient(to right, #7a16a8, #ad2157);
+    --gradient-primary-reverse: linear-gradient(to left, #9b10db, #db105e);
+    --gradient-primary-reverse-hover: linear-gradient(to left, #7a16a8, #ad2157);
+    --gradient-secondary: linear-gradient(to right, #9b10db, #1080db);
+    --gradient-secondary-hover: linear-gradient(to right, #7a16a8, #216ead);
+    --gradient-success: linear-gradient(to right, #28a745, #1e7e34);
+    --gradient-success-hover: linear-gradient(to right, #218838, #1c7430);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    /* color: #337ab7; */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji" !important;
+    background-color: #eee;
+    /* overflow: hidden; */
+}
+
+html,
+body {
+    height: auto;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+th,
+td {
+    vertical-align: middle;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.bg-gradient-primary {
+    background: var(--gradient-primary);
+}
+
+.btn-gradient-primary {
+    background: var(--gradient-primary);
+    color: #fff;
+}
+
+.btn-gradient-primary:hover {
+    background: var(--gradient-primary-hover);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-gradient-primary:active {
+    background: var(--gradient-primary);
+    color: #fff !important;
+}
+
+.btn-btn-group,
+.btn-regular {
+    margin-right: 0;
+}
+
+.btn-swal {
+    width: 400px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-block+.btn-block {
+    margin-top: 0.5rem;
+}
+
+.btn-info {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #10788d;
+    --bs-btn-hover-border-color: #10788d;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0f6a78;
+    --bs-btn-active-border-color: #17a3ba;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #17a2b8;
+    --bs-btn-disabled-border-color: #17a2b8;
+}
+
+.btn-outline-info {
+    --bs-btn-color: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #10788d;
+    --bs-btn-hover-border-color: #10788d;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0f6a78;
+    --bs-btn-active-border-color: #0f6a78;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0f6a78;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #17a2b8;
+    --bs-gradient: none;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #28a745;
+    --bs-btn-border-color: #28a745;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1a6d2d;
+    --bs-btn-hover-border-color: #28a845;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #145b32;
+    --bs-btn-active-border-color: #28a845;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #28a745;
+    --bs-btn-disabled-border-color: #28a745;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #8540F5;
+    border-color: #8540F5;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6f42c1;
+    --bs-btn-hover-border-color: #6f42c1;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6f42c1;
+    --bs-btn-active-border-color: #59359a;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #7611d4;
+    --bs-btn-disabled-border-color: #7611d4;
+}
+
+.btn-warning {
+    color: #fff;
+    /* background-color: var(--bs-warning-500);
+      border-color: var(--bs-warning-500); */
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d39e00;
+    --bs-btn-hover-border-color: #d39e00;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d39e00;
+    --bs-btn-active-border-color: #c69500;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--bs-warning-500);
+    --bs-btn-disabled-border-color: var(--bs-warning-500);
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.overflow-visible {
+    overflow: visible !important;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.text-3xl {
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.text-md {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.text-muted {
+    color: #64748b;
+}
+
+.toast-error {
+    background-color: var(--toastr-danger-100) !important;
+}
+
+.toast-info {
+    background-color: var(--toastr-info-100) !important;
+}
+
+.toast-success {
+    background-color: var(--toastr-success-100) !important;
+}
+
+.toast-warning {
+    background-color: var(--toastr-warning-100) !important;
+}
